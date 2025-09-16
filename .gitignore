@@ -1,0 +1,16 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock file
+composer.lock
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+/.idea/
+/.vscode/
+
+# Databases or local files
+*.db
