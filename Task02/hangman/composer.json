@@ -1,0 +1,20 @@
+{
+    "name": "alex/hangman",
+    "authors": [
+        {
+            "name": "AlexSimonovGit",
+            "email": "zerollkashow@gmail.com"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.6"
+    },
+    "bin": [
+        "bin/hangman"
+    ],
+    "autoload": {
+        "psr-4": {
+            "AlexSimonovGit\\Hangman\\": "src/"
+        }
+    }
+}
