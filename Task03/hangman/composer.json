@@ -1,0 +1,16 @@
+{
+  "name": "alex/hangman",
+  "description": "Console Hangman game (Lab 3)",
+  "type": "project",
+  "require": {
+    "wp-cli/php-cli-tools": "^0.12.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlexSimonovGit\\Hangman\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/hangman"
+  ]
+}
