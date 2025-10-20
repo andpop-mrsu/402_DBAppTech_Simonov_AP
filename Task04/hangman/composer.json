@@ -1,0 +1,23 @@
+{
+    "name": "alexsimonovgit/hangman",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.6"
+    },
+    "bin": [
+        "bin/hangman"
+    ],
+    "autoload": {
+        "psr-4": {
+            "AlexSimonovGit\\hangman\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Model/Game.php",
+            "src/Model/Dictionary.php",
+            "src/Model/Database.php",
+            "src/Repository/GameRepository.php",
+            "src/Repository/AttemptRepository.php"
+        ]
+    }
+}
